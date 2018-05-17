@@ -15,6 +15,25 @@
  */
 
  @import "bootstrap";
- body{
-padding-top: 70px
- }
+ body {
+    padding-top: 70px;
+  }
+  
+  .timeline-centered,
+  .card,
+  .jumbotron-fluid,
+  .checkbox,
+  .alert,
+  input,
+  textarea,
+  a.dropdown-item  {
+    direction: rtl;
+  }
+  
+  .btn-group {
+    direction: ltr;
+  }
+  
+  body, .dropdown-item {
+    text-align: right;
+  }
