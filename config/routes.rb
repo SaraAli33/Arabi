@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
   
+  get 'relationships/create'
+
+  get 'relationships/destroy'
+
   devise_for :users, controllers: { registrations:'registrations'}
   root 'pages#timeline'
   resources :users, only: [:show]
