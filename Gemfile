@@ -10,6 +10,8 @@ gem 'jquery-rails', '~> 4.3'
 gem 'simple_form', '~> 3.5.0'
 gem 'devise', '~> 4.3'
 gem 'gravatarify', '~> 3.0.0'
+
+gem 'public_activity', '~> 1.5'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 
 gem 'rails', '~> 5.1.6'
