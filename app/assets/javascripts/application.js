@@ -12,6 +12,7 @@
 //
 //=require jquery3
 //= require jquery_ujs
+//= require jquery.atwho
 //=require popper
 //=require bootstrap
 //= require turbolinks

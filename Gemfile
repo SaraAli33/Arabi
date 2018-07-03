@@ -12,6 +12,13 @@ gem 'devise', '~> 4.3'
 gem 'gravatarify', '~> 3.0.0'
 
 gem 'public_activity', '~> 1.5'
+gem 'auto_html', '~> 2.0.0'
+
+gem 'acts_as_votable', '~> 0.11.0'
+gem 'acts_as_commentable', '~> 4.0'
+gem 'jquery-atwho-rails', '~> 1.3'
+gem 'font-awesome-rails', '~> 4.7'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 
 gem 'rails', '~> 5.1.6'
